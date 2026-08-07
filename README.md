@@ -1,36 +1,139 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🤖 Fake News Detection AI
 
-## Getting Started
+An AI-powered Fake News Detection web application built using **RoBERTa Transformer**, **FastAPI**, and **Next.js**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📸 Screenshots
+
+### 🏠 Homepage
+
+![Homepage](assets/images/homepage.png)
+
+---
+
+### 🤖 AI Prediction
+
+![Prediction](assets/images/result.png)
+
+---
+
+### ⚡ FastAPI Backend
+
+![API](assets/images/api.png)
+
+---
+
+# ✨ Features
+
+- 🤖 RoBERTa Transformer Model
+- ⚡ Real-time AI Prediction
+- 📊 Confidence Score
+- 🚀 FastAPI Backend
+- 💻 Next.js Frontend
+- 🎨 Responsive Modern UI
+- 🔥 GPU Acceleration (CUDA)
+- 📈 Live Prediction Time
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+### Backend
+
+- FastAPI
+- Python
+
+### AI
+
+- Hugging Face Transformers
+- RoBERTa
+- PyTorch
+
+---
+
+# 📂 Project Structure
+
+```
+fake-news-detection/
+│
+├── backend/
+│   ├── app.py
+│   ├── bert_model.py
+│   ├── requirements.txt
+│
+├── src/
+│
+├── public/
+│
+├── assets/
+│   └── images/
+│
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 🚀 Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Clone Repository
 
-## Learn More
+```bash
+git clone https://github.com/faishal782/fake-news-detection-ai.git
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Frontend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm install
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Backend
 
-## Deploy on Vercel
+```bash
+cd backend
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+python -m venv venv
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+.\venv\Scripts\activate
+
+pip install -r requirements.txt
+
+uvicorn app:app --reload
+```
+
+---
+
+# 📊 AI Model
+
+- Model: RoBERTa Fake News Classifier
+- Framework: Hugging Face Transformers
+- Backend: FastAPI
+- Frontend: Next.js
+- Hardware: NVIDIA RTX 2050 GPU
+
+---
+
+# 🔮 Future Improvements
+
+- 🌐 URL News Detection
+- 📰 Source Credibility Analysis
+- 📈 Explainable AI
+- 📄 PDF News Analysis
+- 🌍 Multilingual Fake News Detection
+
+---
+
+# 👨‍💻 Author
+
+**Faishal**
+
+If you like this project, give it a ⭐ on GitHub.
