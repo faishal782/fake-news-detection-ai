@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# AI Models
+backend/*.pkl
+
+# Hugging Face Cache
+.cache/
+hf_cache/
